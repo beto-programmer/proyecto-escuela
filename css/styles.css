@@ -60,8 +60,9 @@
     background-color: #e4e3e2;
 }
 .litio-informacion__cuadro{
-    display: grid;
-    grid-template-columns: 30px 1240px 30px
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .litio-informacion__titulo{
     font-size: 3rem;
@@ -74,12 +75,20 @@
     padding: 1em;
     font-size: 1.5rem;
     color: #1c333f;
-    grid-column: 2;
-    border: #1c333f 2px solid;
 }
-
-
-
+.creditos{
+    font-size: 2rem;
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    color: #1c333f;
+}
+.creditos__texto{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: #1c333f;
+}
 
 
 
